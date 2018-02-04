@@ -3,7 +3,7 @@ package com.renren.wawa.wxapi;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.renren.wawa.R;
+import com.wawaji.vip.R;
 import com.renren.wawa.app.WawaApplication;
 import com.renren.wawa.base.BaseActivity;
 import com.renren.wawa.utils.BBLog;

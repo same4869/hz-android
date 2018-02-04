@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
-import com.renren.wawa.R;
+import com.wawaji.vip.R;
 import com.renren.wawa.base.BaseTitleBarActivity;
 import com.renren.wawa.fragment.InviteFragment;
 import com.renren.wawa.fragment.RechargeFragment;

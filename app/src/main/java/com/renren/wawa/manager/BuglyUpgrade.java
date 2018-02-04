@@ -3,7 +3,7 @@ package com.renren.wawa.manager;
 import android.os.Environment;
 
 
-import com.renren.wawa.R;
+import com.wawaji.vip.R;
 import com.renren.wawa.activity.WawaMainActivity;
 import com.renren.wawa.app.WawaApplication;
 import com.tencent.bugly.Bugly;

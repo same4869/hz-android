@@ -29,7 +29,7 @@ import android.widget.TextView;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.opendanmaku.DanmakuItem;
 import com.opendanmaku.DanmakuView;
-import com.renren.wawa.R;
+import com.wawaji.vip.R;
 import com.renren.wawa.activity.GameDetailActivity;
 import com.renren.wawa.activity.GameRoomActivity;
 import com.renren.wawa.activity.MyDollActivity;

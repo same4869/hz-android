@@ -148,10 +148,10 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.renren.wawa.wxapi.WXEntryActivity"
+            android:name=".wxapi.WXEntryActivity"
             android:exported="true" />
         <activity
-            android:name="com.renren.wawa.wxapi.WXPayEntryActivity"
+            android:name=".wxapi.WXPayEntryActivity"
             android:exported="true" />
 
         <service android:name="com.renren.wawa.service.ScreenRecorderService" />
@@ -217,12 +217,6 @@
                 <action android:name="android.intent.action.TIMEZONE_CHANGED" />
             </intent-filter>
         </receiver>
-
-
-
-
-
-
 
 
         <!-- 小米推送 -->

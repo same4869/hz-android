@@ -60,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp30"
             android:layout_marginLeft="@dimen/dp7"
             android:layout_marginTop="@dimen/dp5"
             android:ellipsize="end"

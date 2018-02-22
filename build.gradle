@@ -32,6 +32,6 @@ project.ext {
     compileSdkVersion = 26
     targetSdkVersion = 22
     minSdkVersion = 17
-    versionCode = 1000008
-    versionName = "1.0.8"
+    versionCode = 1000000
+    versionName = "1.0.0"
 }

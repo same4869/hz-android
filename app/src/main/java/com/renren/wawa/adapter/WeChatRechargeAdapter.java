@@ -29,7 +29,11 @@ public class WeChatRechargeAdapter extends BaseQuickAdapter<PaySettingBean.DataB
     protected void convert(final BaseViewHolder baseViewHolder, final PaySettingBean.DataBean weixinBean) {
         baseViewHolder.setText(R.id.money_txt, "￥" + weixinBean.getPrice() / 100.0 + "0");
         baseViewHolder.setText(R.id.holl_money_txt, weixinBean.getOriginal_coin() + "");
-        baseViewHolder.setText(R.id.holl_money_txt_tip, "送" + weixinBean.getPlus_coin() + "币");
+        if (weixinBean.getIs_first() == 1) {
+            baseViewHolder.setText(R.id.holl_money_txt_tip, "送" + weixinBean.getPlus_coin() + "币(限首充)");
+        } else {
+            baseViewHolder.setText(R.id.holl_money_txt_tip, "送" + weixinBean.getPlus_coin() + "币");
+        }
 //        if (!TextUtils.isEmpty(weixinBean.getText())) {
 //            baseViewHolder.setText(R.id.holl_money_detail, weixinBean.getText());
 //            baseViewHolder.getView(R.id.holl_money_detail).setVisibility(View.VISIBLE);

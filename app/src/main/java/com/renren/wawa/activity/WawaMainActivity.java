@@ -137,7 +137,7 @@ public class WawaMainActivity extends BaseTitleBarActivity {
         switch (position) {
             case 0:
 //              commTitleBarView.setVisibility(View.VISIBLE);
-                commTitleBarView.setTitleBarText("好抓抓娃娃");
+                commTitleBarView.setTitleBarText("VIP抓娃娃机");
                 commTitleBarView.setMenuText("");
                 commTitleBarView.setMenuIcon(null);
                 break;

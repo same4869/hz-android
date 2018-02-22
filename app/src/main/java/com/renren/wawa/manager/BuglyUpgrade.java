@@ -177,7 +177,7 @@ public class BuglyUpgrade {
          * 参数2：appId
          * 参数3：是否开启debug
          */
-        Bugly.init(WawaApplication.getInstance(), "63d2b5195e", false);
+        Bugly.init(WawaApplication.getInstance(), "377b958acf", false);
 
         /**
          * 如果想自定义策略，按照如下方式设置

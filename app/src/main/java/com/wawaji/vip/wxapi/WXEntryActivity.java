@@ -22,7 +22,7 @@ import org.greenrobot.eventbus.EventBus;
 public class WXEntryActivity extends BaseActivity implements IWXAPIEventHandler {
     private static final String TAG = "WXEntryActivity";
 
-    private static final int RETURN_MSG_TYPE_LOGIN = 1;
+    private static final int RETURN_MSG_TYPE_LOGIN = 1; 
     private static final int RETURN_MSG_TYPE_SHARE = 2;
 
     @Override
